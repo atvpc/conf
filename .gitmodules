@@ -1,0 +1,3 @@
+[submodule "srv/htdocs/store.atvpc.com"]
+	path = srv/htdocs/store.atvpc.com
+	url = git@github.com:atvpc/store.atvpc.com.git
