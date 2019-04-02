@@ -7,6 +7,9 @@
       apt: name={{ item }} state=absent
       with_items:
         - snapd
+        - cryptsetup
+        - parted
+        - ntfs-3g
     - name: Update base system
       become: true
       become_method: sudo
