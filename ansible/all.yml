@@ -6,6 +6,9 @@
       become_method: sudo
       apt: name={{ item }} state=absent
       with_items:
+		- apport
+		- python3-apport
+		- python3-problem-report
         - snapd
         - cryptsetup
         - parted
